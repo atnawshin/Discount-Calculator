@@ -30,7 +30,7 @@ document.getElementById('btn-discount').addEventListener('click', function () {
 
     const discountCode = getInputFieldValue('discount-code');
 
-    if (discountCode.toUpperCase() === 'DESC30') {
+    if (discountCode.toUpperCase() === 'DISC30') {
         const discountAmount = discountCalculator(currentPrice);
 
         const afterDiscountPrice = currentPrice - discountAmount;
